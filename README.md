@@ -79,6 +79,6 @@ To test my app locally before deploying, use: `cargo shuttle run`
 
 <img width="929" alt="Screen Shot 2023-03-09 at 10 26 16 PM" src="https://user-images.githubusercontent.com/112274822/224217330-9f03ae57-ee35-4400-b26f-5952cba85550.png">
 
-**###Reference**
+### **Reference**
 1. https://docs.rs/shuttle-service/latest/shuttle_service/
 2. https://docs.shuttle.rs/examples/actix

@@ -5,15 +5,12 @@ This project is about using Shuttle.rs to deploy serverless data engineering pip
 
 ## Rules
 1. "Rock, paper, scissors" is a hand game played by two people. The game has three possible outcomes: a win for the player, a win for the computer, or a tie.
-
 2. In the game, the player and the computer both choose one of three options: rock, paper, or scissors. The rules for determining the winner are:
 * Rock beats scissors
 * Scissors beats paper
 * Paper beats rock
 * If both the player and the computer choose the same option, the game is a tie.
-
 3. So, for example, if the player chooses "rock" and the computer chooses "scissors", the player wins. If the player chooses "scissors" and the computer chooses "paper", the player wins. If the player chooses "paper" and the computer chooses "rock", the player wins. On the other hand, if the player chooses "rock" and the computer chooses "paper", the computer wins. If the player chooses "scissors" and the computer chooses "rock", the computer wins. If the player chooses "paper" and the computer chooses "scissors", the computer wins.
-
 4. In summary, to win at "rock, paper, scissors", the player needs to choose the option that beats the computer's choice.
 
 ## Structure Diagram

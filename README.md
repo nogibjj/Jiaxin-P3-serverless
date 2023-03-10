@@ -37,4 +37,23 @@ Overall, your microservice provides a simple implementation of the "rock, paper,
 3. login to Shuttle.rs
 <img width="1343" alt="Screen Shot 2023-03-09 at 10 16 07 PM" src="https://user-images.githubusercontent.com/112274822/224214373-8ed46dda-cf39-4779-8124-aa3516c1b999.png">
 
-4. 
+## Usage
+1. Start by installing the cargo shuttle subcommand by running the following in a terminal:
+`cargo install cargo-shuttle`
+2. Log in, run this command to start the login process:
+`cargo shuttle login`
+3. Authenticate, run this command to authenticate:
+`cargo shuttle login --api-key 6jiJsI8dy6QwGTQT`
+4. Initialize, run this command to initialize your project:
+`cargo shuttle init`
+<img width="701" alt="Screen Shot 2023-03-09 at 9 24 15 PM" src="https://user-images.githubusercontent.com/112274822/224215076-041bfd8a-793f-4b20-b2bb-567553d006da.png">
+
+5. Deploy, run this command to deploy your project 🥳:
+`cargo shuttle deploy`
+<img width="1020" alt="Screen Shot 2023-03-09 at 9 24 28 PM" src="https://user-images.githubusercontent.com/112274822/224215251-91c7ac9e-ec44-4b9f-a558-e67c2af43634.png">
+
+Sometimes when you deploy your project, it will show errors that need to debug:
+<img width="1007" alt="Screen Shot 2023-03-09 at 6 26 43 PM" src="https://user-images.githubusercontent.com/112274822/224215423-09654a50-448e-4700-870e-9c41a431261d.png">
+
+Once finsh debugging your errors, deploy it again untill it succeed:
+<img width="1015" alt="Screen Shot 2023-03-09 at 10 26 02 PM" src="https://user-images.githubusercontent.com/112274822/224215735-4af31e8d-83ae-470f-ab23-bc4f305343de.png">

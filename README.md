@@ -60,6 +60,8 @@ Once finsh debugging your errors, deploy it again untill it succeed:
 
 ## Running locally
 To test your app locally before deploying, use: `cargo shuttle run`
+<img width="862" alt="Screen Shot 2023-03-09 at 10 32 56 PM" src="https://user-images.githubusercontent.com/112274822/224216622-4e426116-5495-426d-992f-59f4e8392bac.png">
+
 * When type "/play", there are three possible results:
 <img width="662" alt="Screen Shot 2023-03-09 at 9 04 16 PM" src="https://user-images.githubusercontent.com/112274822/224216196-42f9d2a9-5738-472d-9739-530071f510d7.png">
 <img width="671" alt="Screen Shot 2023-03-09 at 9 05 16 PM" src="https://user-images.githubusercontent.com/112274822/224216199-7d4363bd-a83e-408e-898d-a8898b155efb.png">

@@ -24,3 +24,17 @@ The actix_web macro is used to define the entry point of the Actix Web server, w
 Overall, your microservice provides a simple implementation of the "rock, paper, scissors" game over HTTP using Actix Web and Rust.
 
 <img width="1023" alt="Screen Shot 2023-03-09 at 9 53 11 PM" src="https://user-images.githubusercontent.com/112274822/224213987-49562f9f-821f-42ef-9ce5-58d28b298b1b.png">
+
+## Prepration
+1. Set virtual environment: 
+* `python3 -m venv env`
+* `source env/bin/activate`
+
+2. Install rust: 
+* `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+* `source "$HOME/.cargo/env"`
+
+3. login to Shuttle.rs
+<img width="1343" alt="Screen Shot 2023-03-09 at 10 16 07 PM" src="https://user-images.githubusercontent.com/112274822/224214373-8ed46dda-cf39-4779-8124-aa3516c1b999.png">
+
+4. 

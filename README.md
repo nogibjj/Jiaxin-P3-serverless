@@ -48,21 +48,28 @@ Overall, your microservice provides a simple implementation of the "rock, paper,
 `cargo shuttle init`
 <img width="701" alt="Screen Shot 2023-03-09 at 9 24 15 PM" src="https://user-images.githubusercontent.com/112274822/224215076-041bfd8a-793f-4b20-b2bb-567553d006da.png">
 
-5. Deploy, run this command to deploy your project 🥳:
-`cargo shuttle deploy`
-<img width="1020" alt="Screen Shot 2023-03-09 at 9 24 28 PM" src="https://user-images.githubusercontent.com/112274822/224215251-91c7ac9e-ec44-4b9f-a558-e67c2af43634.png">
-
-Sometimes when you deploy your project, it will show errors that need to debug:
-<img width="1007" alt="Screen Shot 2023-03-09 at 6 26 43 PM" src="https://user-images.githubusercontent.com/112274822/224215423-09654a50-448e-4700-870e-9c41a431261d.png">
-
-Once finsh debugging your errors, deploy it again untill it succeed:
-<img width="1015" alt="Screen Shot 2023-03-09 at 10 26 02 PM" src="https://user-images.githubusercontent.com/112274822/224215735-4af31e8d-83ae-470f-ab23-bc4f305343de.png">
-
 ## Running locally
-To test your app locally before deploying, use: `cargo shuttle run`
+To test my app locally before deploying, use: `cargo shuttle run`
 <img width="862" alt="Screen Shot 2023-03-09 at 10 32 56 PM" src="https://user-images.githubusercontent.com/112274822/224216622-4e426116-5495-426d-992f-59f4e8392bac.png">
 
 * When type "/play", there are three possible results:
 <img width="662" alt="Screen Shot 2023-03-09 at 9 04 16 PM" src="https://user-images.githubusercontent.com/112274822/224216196-42f9d2a9-5738-472d-9739-530071f510d7.png">
 <img width="671" alt="Screen Shot 2023-03-09 at 9 05 16 PM" src="https://user-images.githubusercontent.com/112274822/224216199-7d4363bd-a83e-408e-898d-a8898b155efb.png">
 <img width="650" alt="Screen Shot 2023-03-09 at 9 04 24 PM" src="https://user-images.githubusercontent.com/112274822/224216200-b25453ab-30bc-48e9-b6c5-177e2e40b992.png">
+
+## Deploy via shuttle
+1. Run this command to deploy your project 🥳:`cargo shuttle deploy`
+<img width="1020" alt="Screen Shot 2023-03-09 at 9 24 28 PM" src="https://user-images.githubusercontent.com/112274822/224215251-91c7ac9e-ec44-4b9f-a558-e67c2af43634.png">
+
+2. Sometimes when you deploy your project, it will show errors that need to debug:
+<img width="1007" alt="Screen Shot 2023-03-09 at 6 26 43 PM" src="https://user-images.githubusercontent.com/112274822/224215423-09654a50-448e-4700-870e-9c41a431261d.png">
+
+3. Once finsh debugging your errors, deploy it again untill it succeed:
+
+4. Your service will immediately be available at {crate_name}.shuttleapp.rs. My example:
+<img width="1015" alt="Screen Shot 2023-03-09 at 10 26 02 PM" src="https://user-images.githubusercontent.com/112274822/224215735-4af31e8d-83ae-470f-ab23-bc4f305343de.png">
+
+Run this code in terminal: `curl https://playgame.shuttleapp.rs/play`
+
+I run it many times, and for each time, it will return me a random result from the list: [Rock, paper, scissors]
+<img width="929" alt="Screen Shot 2023-03-09 at 10 26 16 PM" src="https://user-images.githubusercontent.com/112274822/224217330-9f03ae57-ee35-4400-b26f-5952cba85550.png">

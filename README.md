@@ -33,8 +33,9 @@ The actix_web macro is used to define the entry point of the Actix Web server, w
 2. Install rust: 
 * `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 * `source "$HOME/.cargo/env"`
-3. login to Shuttle.rs
+3. login to Shuttle.rs via https://www.shuttle.rs/login
 <img width="1343" alt="Screen Shot 2023-03-09 at 10 16 07 PM" src="https://user-images.githubusercontent.com/112274822/224214373-8ed46dda-cf39-4779-8124-aa3516c1b999.png">
+<img width="862" alt="Screen Shot 2023-03-10 at 12 59 17 PM" src="https://user-images.githubusercontent.com/112274822/224389799-64811eb9-2877-4252-9348-b05fdb2be442.png">
 
 ## Usage
 1. Start by installing the cargo shuttle subcommand by running the following in a terminal:

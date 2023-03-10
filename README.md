@@ -21,9 +21,7 @@ This project is about using Shuttle.rs to deploy serverless data engineering pip
 ## Functions
 microservice using Actix Web provides an HTTP endpoint at "/play" that can be used to play the game "rock, paper, scissors". When a user accesses the endpoint, the service generates a random selection for the computer's move (either "rock", "paper", or "scissors"), and returns a response to the user indicating the computer's move. The implementation of the game logic is simple, as it only generates a random computer move, without taking into account the user's input or determining a winner.
 
-The actix_web macro is used to define the entry point of the Actix Web server, which is provided by the ShuttleActixWeb type from the shuttle_service crate. The playgame function is the handler for the "/play" endpoint and returns an HTTP response with the computer's move. The actix_web macro is then used to wrap the main function that sets up the Actix Web server and registers the playgame handler with the service configuration.
-
-Overall, your microservice provides a simple implementation of the "rock, paper, scissors" game over HTTP using Actix Web and Rust.
+The actix_web macro is used to define the entry point of the Actix Web server, which is provided by the ShuttleActixWeb type from the shuttle_service crate. The playgame function is the handler for the "/play" endpoint and returns an HTTP response with the computer's move. The actix_web macro is then used to wrap the main function that sets up the Actix Web server and registers the playgame handler with the service configuration. Overall, your microservice provides a simple implementation of the "rock, paper, scissors" game over HTTP using Actix Web and Rust.
 
 <img width="1023" alt="Screen Shot 2023-03-09 at 9 53 11 PM" src="https://user-images.githubusercontent.com/112274822/224213987-49562f9f-821f-42ef-9ce5-58d28b298b1b.png">
 
@@ -31,11 +29,9 @@ Overall, your microservice provides a simple implementation of the "rock, paper,
 1. Set virtual environment: 
 * `python3 -m venv env`
 * `source env/bin/activate`
-
 2. Install rust: 
 * `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 * `source "$HOME/.cargo/env"`
-
 3. login to Shuttle.rs
 <img width="1343" alt="Screen Shot 2023-03-09 at 10 16 07 PM" src="https://user-images.githubusercontent.com/112274822/224214373-8ed46dda-cf39-4779-8124-aa3516c1b999.png">
 

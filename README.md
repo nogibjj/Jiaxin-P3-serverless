@@ -69,7 +69,7 @@ To test my app locally before deploying, use: `cargo shuttle run`
 4. Your service will immediately be available at {crate_name}.shuttleapp.rs. My example:
 <img width="1015" alt="Screen Shot 2023-03-09 at 10 26 02 PM" src="https://user-images.githubusercontent.com/112274822/224215735-4af31e8d-83ae-470f-ab23-bc4f305343de.png">
 
-Run this code in terminal: `curl https://playgame.shuttleapp.rs/play`
+5. Run this code in terminal: `curl https://playgame.shuttleapp.rs/play`
 
 I run it many times, and for each time, it will return me a random result from the list: [Rock, paper, scissors]
 <img width="929" alt="Screen Shot 2023-03-09 at 10 26 16 PM" src="https://user-images.githubusercontent.com/112274822/224217330-9f03ae57-ee35-4400-b26f-5952cba85550.png">

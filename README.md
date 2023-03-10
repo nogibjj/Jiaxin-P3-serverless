@@ -17,6 +17,7 @@ This project is about using Shuttle.rs to deploy serverless data engineering pip
 <img width="1001" alt="Screen Shot 2023-03-10 at 12 07 51 AM" src="https://user-images.githubusercontent.com/112274822/224228728-5aa89a04-79fa-4a2b-91e0-4bdc60f86b18.png">
 
 ## Demo Link
+https://teams.microsoft.com/l/message/19:0ceb53838ecf4f9381360fecae2915f6@thread.tacv2/1678425282734?tenantId=cb72c54e-4a31-4d9e-b14a-1ea36dfac94c&groupId=7757ff33-20f5-434b-8d0b-5fe61b251c34&parentMessageId=1678425282734&teamName=IDS-721-Spring-2023&channelName=Week%209%20Individual%20Project%203&createdTime=1678425282734&allowXTenantAccess=false
 
 ## Functions
 microservice using Actix Web provides an HTTP endpoint at "/play" that can be used to play the game "rock, paper, scissors". When a user accesses the endpoint, the service generates a random selection for the computer's move (either "rock", "paper", or "scissors"), and returns a response to the user indicating the computer's move. The implementation of the game logic is simple, as it only generates a random computer move, without taking into account the user's input or determining a winner.

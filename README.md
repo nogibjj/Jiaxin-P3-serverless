@@ -57,3 +57,10 @@ Sometimes when you deploy your project, it will show errors that need to debug:
 
 Once finsh debugging your errors, deploy it again untill it succeed:
 <img width="1015" alt="Screen Shot 2023-03-09 at 10 26 02 PM" src="https://user-images.githubusercontent.com/112274822/224215735-4af31e8d-83ae-470f-ab23-bc4f305343de.png">
+
+## Running locally
+To test your app locally before deploying, use: `cargo shuttle run`
+* When type "/play", there are three possible results:
+<img width="662" alt="Screen Shot 2023-03-09 at 9 04 16 PM" src="https://user-images.githubusercontent.com/112274822/224216196-42f9d2a9-5738-472d-9739-530071f510d7.png">
+<img width="671" alt="Screen Shot 2023-03-09 at 9 05 16 PM" src="https://user-images.githubusercontent.com/112274822/224216199-7d4363bd-a83e-408e-898d-a8898b155efb.png">
+<img width="650" alt="Screen Shot 2023-03-09 at 9 04 24 PM" src="https://user-images.githubusercontent.com/112274822/224216200-b25453ab-30bc-48e9-b6c5-177e2e40b992.png">

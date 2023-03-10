@@ -17,6 +17,7 @@ This project is about using Shuttle.rs to deploy serverless data engineering pip
 4. In summary, to win at "rock, paper, scissors", the player needs to choose the option that beats the computer's choice.
 
 ## Structure Diagram
+<img width="1001" alt="Screen Shot 2023-03-10 at 12 07 51 AM" src="https://user-images.githubusercontent.com/112274822/224228728-5aa89a04-79fa-4a2b-91e0-4bdc60f86b18.png">
 
 ## Demo Link
 
